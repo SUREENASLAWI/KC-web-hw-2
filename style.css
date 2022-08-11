@@ -1,0 +1,116 @@
+.container{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #A5C9CA;
+    display:flex;
+    width: auto;
+    height: 45px;
+    text-align: center;
+}
+
+#drama{
+    text-align: center;
+    color: beige;
+}
+
+.drama{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 160px;
+    justify-content: space-around;
+
+}
+
+#house-of-gucci {
+    width: 100px;
+    height: 150px;
+    background-color: #A5C9CA;
+    margin: 20px;
+    text-align: center;
+
+}
+
+#Cruella{
+    width: 100px;
+    height: 150px;
+    background-color:#A5C9CA;  
+    margin: 20px;
+    text-align: center;
+}
+
+#The-Founder{
+    width: 100px;
+    height: 150px;
+    background-color:#A5C9CA;  
+    margin: 20px;
+    text-align: center;
+}
+
+#animation{
+    text-align: center;
+    color: beige;
+}
+
+.animation{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 160px;
+    justify-content: space-around;
+}
+
+#Minions{    width: 100px;
+    height: 150px;
+    background-color:#A5C9CA;  
+    margin: 20px;
+    text-align: center;
+}
+
+#The-Lorax{    
+    width: 100px;
+    height: 150px;
+    background-color:#A5C9CA;  
+    margin: 20px;
+    text-align: center;
+}
+
+#Lilo-Stitch{
+    width: 100px;
+    height: 150px;
+    background-color:#A5C9CA;  
+    margin: 20px;
+    text-align: center;
+}
+
+#action{
+    text-align: center;
+    color: beige;  
+}
+.action{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 160px;
+    justify-content: space-around;
+}
+
+#No-Time-to-Die{
+    width: 100px;
+    height: 150px;
+    background-color:#A5C9CA;  
+    margin: 20px;
+    text-align: center;
+}
+
+#Furious-7{
+    width: 100px;
+    height: 150px;
+    background-color:#A5C9CA;  
+    margin: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: #2C3333;
+}
