@@ -1,11 +1,58 @@
-.container{
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #A5C9CA;
-    display:flex;
-    width: auto;
-    height: 45px;
-    text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li , a {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #edf0f1;
+text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+}
+
+.name{
+    cursor: pointer;
+    color:whitesmoke ;
+    display: inline-block;
+    text-align: left;
+    margin-left:100px;
+    padding: 5px 25px;
+
+    
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9;
 }
 
 #drama{
@@ -17,32 +64,29 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    height: 160px;
+    height: 250px;
     justify-content: space-around;
 
 }
 
 #house-of-gucci {
-    width: 100px;
-    height: 150px;
-    background-color: #A5C9CA;
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 
 }
 
 #Cruella{
-    width: 100px;
-    height: 150px;
-    background-color:#A5C9CA;  
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 }
 
 #The-Founder{
-    width: 100px;
-    height: 150px;
-    background-color:#A5C9CA;  
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 }
@@ -56,29 +100,27 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    height: 160px;
+    height: 220px;
     justify-content: space-around;
 }
 
-#Minions{    width: 100px;
-    height: 150px;
-    background-color:#A5C9CA;  
+#Minions{    
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 }
 
 #The-Lorax{    
-    width: 100px;
-    height: 150px;
-    background-color:#A5C9CA;  
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 }
 
 #Lilo-Stitch{
-    width: 100px;
-    height: 150px;
-    background-color:#A5C9CA;  
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 }
@@ -91,26 +133,52 @@
     display: flex;
     flex-direction: row;
     width: auto;
-    height: 160px;
+    height: 220px;
     justify-content: space-around;
 }
 
 #No-Time-to-Die{
-    width: 100px;
-    height: 150px;
-    background-color:#A5C9CA;  
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 }
 
 #Furious-7{
-    width: 100px;
-    height: 150px;
-    background-color:#A5C9CA;  
+    width: 120px;
+    height: 170px;
     margin: 20px;
     text-align: center;
 }
 
-body{
-    background-color: #2C3333;
+h4{
+    color: #edf0f1;
+}
+
+footer{
+    background-color: beige;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 9px 25px;
+}
+
+button{
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
 }
