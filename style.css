@@ -22,8 +22,8 @@ header{
 
 .logo{
     cursor: pointer;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 60px;
     margin-right: auto;
 }
 
@@ -33,9 +33,7 @@ header{
     display: inline-block;
     text-align: left;
     margin-left:100px;
-    padding: 5px 25px;
-
-    
+    padding: 5px 25px;  
 }
 
 .nav-links{
@@ -66,15 +64,14 @@ header{
     width: auto;
     height: 250px;
     justify-content: space-around;
-
 }
+
 
 #house-of-gucci {
     width: 120px;
     height: 170px;
     margin: 20px;
     text-align: center;
-
 }
 
 #Cruella{
@@ -156,7 +153,6 @@ h4{
 }
 
 footer{
-    background-color: beige;
     height: auto;
     width: 100vw;
     padding-top: 40px;
@@ -186,4 +182,11 @@ button:hover{
 .all{
 box-shadow: 1px 2px 5px gray;
 border: 4px solid #0088a9 ;
+cursor:grab;
 }
+
+.img{
+  width: 95px; 
+  height: 123px;
+}
+
